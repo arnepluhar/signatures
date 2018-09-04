@@ -23,7 +23,7 @@ function addwebsite()
 var website = document.getElementById("website");
 var s = website.value;
 document.getElementById('website1').innerHTML= s;
-document.getElementById('website1').href="http://"+s;
+document.getElementById('website1').href="https://"+s;
 }
 function addoffice()
 {
@@ -82,7 +82,7 @@ $('#message1').html('image uploaded successfully');
 $('#image_preview1').css('display', 'inline-block');
 /*$('#previewing').attr('src',data);
 $('#previewing').attr('src',"upload/DSC_0126.jpg");
-$('#previewing').attr('src',"http://localhost/Create-Email-Signature/upload/DSC_0126.jpg");*/
+$('#previewing').attr('src',"https://localhost/Create-Email-Signature/upload/DSC_0126.jpg");*/
 }
 }
 });
