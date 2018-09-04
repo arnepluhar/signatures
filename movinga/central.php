@@ -108,12 +108,12 @@ display:none;
 <div class="row">
 <tr>
 <div class="col-md-6">
-<td><div><b>Name</b></div><input type="text" name="username" onkeyUp="document.getElementById('Uname').innerHTML = this.value"  value="First Name Last Name"/>
+<td><div><b>Name</b></div><input type="text" name="username" onkeyUp="document.getElementById('Uname').innerHTML = this.value"  placeholder="First Name Last Name">
 </td>
 </div>
 <div class="col-md-6">
 <td>
-<div><b>Job Title</b></div><input id="jobtitle" type="text" name="jobtitle" onKeyup="addjobtitle()">
+<div><b>Job Title</b></div><input id="jobtitle" type="text" name="jobtitle" onKeyup="addjobtitle()" placeholder="Position Title">
 </td>
 </div>
 </tr>
@@ -121,57 +121,18 @@ display:none;
 <div class="row">
 <tr>
 <div class="col-md-6"><td>
-<div><b>Email</b></div><input id="emailid" type="text" name="emailid" onKeyup="addemailid()"></td></div>
-<div class="col-md-6"><td><div><b>Mobile No</b></div><input id="mobileno" type="text" name="mobileno" onKeyup="addmobileno()"></td></div>
+<div><b>Email</b></div><input id="emailid" type="text" name="emailid" onKeyup="addemailid()" placeholder="firstname.lastname@movinga.com"></td></div>
+<div class="col-md-6"><td><div><b>Mobile No</b></div><input id="mobileno" type="text" name="mobileno" onKeyup="addmobileno()" placeholder="+49 171 1234567"></td></div>
 </tr>
 </div>
 <div class="row">
 <tr>
 <div class="col-md-6">
-<td><div><b>Company Name</b></div><input type="text" name="cname" onkeyUp="document.getElementById('companyname').innerHTML = this.value"></td></div>
-<div class="col-md-6"><td><div><b>Website</b></div><input id="website" type="text" placeholder="https://www.example.com" name="website" onKeyup="addwebsite()"></td></div>
+<td><div><b>Additinal info?</b></div><input type="text" name="cinfo" onkeyUp="document.getElementById('companyinfo').innerHTML = this.value"></td></div>
+<div class="col-md-6"><td><div><b>Link to an optional article </b></div><input id="website" type="text" placeholder="https://www.example.com" name="website" onKeyup="addwebsite()"></td></div>
 </tr>
 </div>
 <div class="row">
-<tr>
-<div class="col-md-12">
-<td colspan="2">
-<input type="button" id="uploadimg" class="" data-toggle="modal" data-target=".demo-popup" value="upload image">
-</td>
-</div>
-</tr>
-</div>
-</table>
-<table class="uinfo">
-<div class="row">
-<tr>
-<td><div><b>Address</b></div>
-<input type="text" class="inline" name="address" onkeyUp="document.getElementById('address1').innerHTML = this.value">
-</td>
-</tr>
-</div>
-<div class="row">
-<tr>
-<td><div><b>Address Line 2</b></div>
-<input type="text" class="inline" name="addressline2" onkeyUp="document.getElementById('addressline2').innerHTML = this.value">
-</td>
-</tr>
-</div>
-<div class="row">
-<tr>
-<td>
-<div><b>Facebook Profile Url</b></div>
-<input class="inline" id="facebook" type="text" name="facebook" placeholder="https://www.facebook.com/profile.php?id=1000" onKeyup="addfacebook()">
-</td>
-</tr>
-</div>
-<div class="row">
-<tr>
-<td>
-<div><b>Twitter Profile Url</b></div>
-<input class="inline" id="twitter" type="text" name="twitter" placeholder="https://www.twitter.com/profile" onKeyup="addtwitter()">
-</td>
-</tr>
 </div>
 </table>
 </form>
@@ -200,13 +161,11 @@ display:none;
 <a class="msg" href="" id="website1">
 </a>
 </p>
-<p class="msg">
-<a id="fb" href="">
-<img id="fbimg" width="16px" style="margin-bottom:2px; border:none; display:none;" height="16px" src="images/facebook.png" alt="Facebook">
-</a>
-<a id="tw" href="">
-<img id="twimg" width="16px" style="margin-bottom:2px; border:none; display:none;" height="16px" src="images/twitter.png" alt="twitter">
-</a>
+<p style="margin-top: 14px; font-family: Verdana, Geneva, sans-serif; font-size: 10px; line-height: 16px; color: #333;">
+This e-mail may contain confidential and/or privileged information. Any unauthorized copying, disclosure or distribution of the material in this e-mail is forbidden. If you are not the intended recipient (or have received this e-mail in error) please notify the sender immediately and delete this e-mail. Thank you!
+Movinga GmbH, Perleberger Straße 42, 10559 Berlin, Germany<br/>
+HANDELSREGISTER: Amtsgericht Berlin (Charlottenburg), HRB 167739<br/>
+GESCHÄFTSFÜHRUNG: Finn Age Hänsel
 </p>
 </div>
 </div>
