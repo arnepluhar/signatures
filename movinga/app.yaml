@@ -1,0 +1,8 @@
+runtime: php72
+api_version: 1
+threadsafe: true
+handlers:
+- url: /central
+  script: central.php
+- url: /.*
+  script: index.html
