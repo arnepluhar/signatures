@@ -95,7 +95,7 @@ display:none;
 </div> <!-- /.container -->
 <div id="wholecont">
 <div id="main">
-<h1><b>Create Easy Email Signatures</b></h1>
+<h1><b>Create Your Movinga-Email-Signature</b></h1>
 <div class="container">
 <div class="row">
 <div id="div1" align="center" class="col-md-5">
@@ -108,7 +108,7 @@ display:none;
 <div class="row">
 <tr>
 <div class="col-md-6">
-<td><div><b>Name</b></div><input type="text" name="username" onkeyUp="document.getElementById('Uname').innerHTML = this.value" />
+<td><div><b>Name</b></div><input type="text" name="username" onkeyUp="document.getElementById('Uname').innerHTML = this.value"  value="First Name Last Name"/>
 </td>
 </div>
 <div class="col-md-6">
@@ -179,7 +179,7 @@ display:none;
 <input type="button" id="copy1" class="" data-toggle="modal" data-target=".demo-popup1" value="Create Signature">
 </div>
 <div id="div2" class="col-md-7">
-<h2>Signature Demo</h2>
+<h2>Your Movinga-Signature</h2>
 <hr/>
 <div id="image_preview1">
 <img id="previewing1" src="noimage.png" />
