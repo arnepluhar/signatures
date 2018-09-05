@@ -122,11 +122,15 @@ display:none;
 <tr>
 <div class="col-md-6"><td>
 <div><b>Email</b></div><input id="emailid" type="text" name="emailid" onKeyup="addemailid()" placeholder="firstname.lastname@movinga.com"></td></div>
+</tr>
+<tr>
 <div class="col-md-6"><td><div><b>Mobile No</b></div><input id="mobileno" type="text" name="mobileno" onKeyup="addmobileno()" placeholder="+49 171 1234567"></td></div>
 </tr>
 <tr>
 <div class="col-md-6">
 <td><div><b>Additinal info?</b></div><input type="text" name="cinfo" onkeyUp="document.getElementById('companyinfo').innerHTML = this.value"></td></div>
+</tr>
+<tr>
 <div class="col-md-6"><td><div><b>Link to an optional article </b></div><input id="website" type="text" placeholder="https://www.example.com" name="website" onKeyup="addwebsite()"></td></div>
 </tr>
 </div>
