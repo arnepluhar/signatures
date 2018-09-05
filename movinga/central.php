@@ -145,7 +145,7 @@ display:none;
 <div id="image_preview1">
 <img id="previewing1" src="noimage.png" />
 </div>
-<p style="color: #333; margin-bottom: 0; font-family: Verdana, Geneva, sans-serif;">
+<span style="color: #333; margin-bottom: 0; font-family: Verdana, Geneva, sans-serif;">
  <p style="margin-bottom: 0;">
   <p style="font-size: 13px; color: #ff5722; line-height: 20px; font-weight: bold; margin-bottom: 0;" id="Uname"></p>
   <p style="font-size: 12px; color: #666; line-height: 24px; font-weight: bold; text-transform: uppercase; margin-bottom: 0;" id="jobtitle1"></p>
@@ -169,7 +169,7 @@ display:none;
  <p class="signature" style="margin-top: 14px; font-size: 10px; line-height: 16px;">Movinga GmbH, Perleberger Straße 42, 10559 Berlin, Germany</p>
  <p class="signature" style="margin-top: 4px; font-size: 10px;">HANDELSREGISTER: Amtsgericht Berlin (Charlottenburg), HRB 167739</p>
  <p class="signature" style="margin-top: 4px; font-size: 10px;">GESCHÄFTSFÜHRUNG: Finn Age Hänsel</p>
-</p>
+</span>
 </div>
 </div>
 </div>
