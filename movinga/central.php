@@ -111,29 +111,24 @@ display:none;
 <td><div><b>Name</b></div><input type="text" name="username" onkeyUp="document.getElementById('Uname').innerHTML = this.value"  placeholder="First Name Last Name">
 </td>
 </div>
-<br/>
+</tr>
+<tr>
 <div class="col-md-6">
 <td>
 <div><b>Job Title</b></div><input id="jobtitle" type="text" name="jobtitle" onKeyup="addjobtitle()" placeholder="Position Title">
 </td>
 </div>
 </tr>
-</div>
-<div class="row">
 <tr>
 <div class="col-md-6"><td>
 <div><b>Email</b></div><input id="emailid" type="text" name="emailid" onKeyup="addemailid()" placeholder="firstname.lastname@movinga.com"></td></div>
 <div class="col-md-6"><td><div><b>Mobile No</b></div><input id="mobileno" type="text" name="mobileno" onKeyup="addmobileno()" placeholder="+49 171 1234567"></td></div>
 </tr>
-</div>
-<div class="row">
 <tr>
 <div class="col-md-6">
 <td><div><b>Additinal info?</b></div><input type="text" name="cinfo" onkeyUp="document.getElementById('companyinfo').innerHTML = this.value"></td></div>
 <div class="col-md-6"><td><div><b>Link to an optional article </b></div><input id="website" type="text" placeholder="https://www.example.com" name="website" onKeyup="addwebsite()"></td></div>
 </tr>
-</div>
-<div class="row">
 </div>
 </table>
 </form>
@@ -162,11 +157,13 @@ display:none;
 <a class="msg" href="" id="website1">
 </a>
 </p>
-<p style="margin-top: 14px; font-family: Verdana, Geneva, sans-serif; font-size: 10px; line-height: 16px; color: #333; max-width: 940px;">
+<img class="signature" style="width: 40%; max-width: 100%; vertical-align: middle; display: inline-block; border: 0;" src="https://download.movinga.com/email-signature/line.png">
+<div class="signature" style="line-height: 20px; color: #333;"><a href="https://www.movinga.com"><img class="signature" src="https://download.movinga.com/email-signature/movinga-36.png" width="120"></a><a href="https://www.pinterest.com/movingade"><img class="signature" style="margin-left: 6px;width: 24px;" src="https://download.movinga.com/email-signature/pinterest-36.png"></a><a href="https://www.facebook.com/movinga.de"><img class="signature" style="margin-left: 6px;width: 24px;"  src="https://download.movinga.com/email-signature/facebook-36.png"></a><a href="https://www.instagram.com/movinga/"><img style="margin-left: 6px;width: 24px;" src="https://download.movinga.com/email-signature/instagram-36.png"></a><a href="https://twitter.com/Movinga" class="w-inline-block"><img style="margin-left: 6px;width: 24px;" src="https://download.movinga.com/email-signature/twitter-36.png"></a><a href="https://www.linkedin.com/company/movinga-gmbh" class="w-inline-block"><img style="margin-left: 6px;width: 24px;" src="https://download.movinga.com/email-signature/linkedin-36.png"></a></div>
+<p class="signature" style="margin-top: 14px; font-family: Verdana, Geneva, sans-serif; font-size: 10px; line-height: 16px; color: #333; max-width: 940px;">
 This e-mail may contain confidential and/or privileged information. Any unauthorized copying, disclosure or distribution of the material in this e-mail is forbidden. If you are not the intended recipient (or have received this e-mail in error) please notify the sender immediately and delete this e-mail. Thank you!
-<p style="margin-top: 14px; font-family: Verdana, Geneva, sans-serif; font-size: 10px; line-height: 16px; color: #333;">Movinga GmbH, Perleberger Straße 42, 10559 Berlin, Germany</p>
-<p style="margin-top: 4px; font-family: Verdana, Geneva, sans-serif; font-size: 10px; line-height: 16px; color: #333;">HANDELSREGISTER: Amtsgericht Berlin (Charlottenburg), HRB 167739</p>
-<p style="margin-top: 4px; font-family: Verdana, Geneva, sans-serif; font-size: 10px; line-height: 16px; color: #333;">GESCHÄFTSFÜHRUNG: Finn Age Hänsel</p>
+<p class="signature" style="margin-top: 14px; font-family: Verdana, Geneva, sans-serif; font-size: 10px; line-height: 16px; color: #333;">Movinga GmbH, Perleberger Straße 42, 10559 Berlin, Germany</p>
+<p class="signature" style="margin-top: 4px; font-family: Verdana, Geneva, sans-serif; font-size: 10px; color: #333;">HANDELSREGISTER: Amtsgericht Berlin (Charlottenburg), HRB 167739</p>
+<p class="signature" style="margin-top: 4px; font-family: Verdana, Geneva, sans-serif; font-size: 10px; color: #333;">GESCHÄFTSFÜHRUNG: Finn Age Hänsel</p>
 </p>
 </div>
 </div>
