@@ -1,7 +1,7 @@
 function addjobtitle()
 {
 var jobtitle = document.getElementById("jobtitle");
-var s = " / "+jobtitle.value;
+var s = jobtitle.value;
 document.getElementById('jobtitle1').innerHTML = s
 }
 function addemailid()
