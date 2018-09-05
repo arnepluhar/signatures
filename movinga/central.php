@@ -147,7 +147,7 @@ display:none;
 </div>
 <span style="color: #333; font-size: 10px; font-family: Verdana, Geneva, sans-serif;">
   <p style="font-size: 13px; color: #ff5722; line-height: 20px; font-weight: bold; margin-bottom: 0;" id="Uname"></p>
-  <p style="font-size: 11px; color: #666; line-height: 24px; font-weight: bold; text-transform: uppercase;" id="jobtitle1"></p>
+  <p style="margin-bottom: 0; font-size: 11px; color: #666; line-height: 24px; font-weight: bold; text-transform: uppercase;" id="jobtitle1"></p>
   <p class="signature" style="margin-bottom: 0;">
    <a href="" id="emailid1" class="signature" style="margin-top: 4px; margin-bottom: 0; color: #333; cursor: pointer; text-decoration: underline;"></a>
   </p>
