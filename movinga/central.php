@@ -1,6 +1,6 @@
 <html>
 <head>
-<title> Email-Signature-Creator</title>
+<title>Movinga Email-Signature-Creator - Central</title>
 <link rel="stylesheet" href="style.css" />
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -100,7 +100,7 @@ display:none;
 <div class="row">
 <div id="div1" align="center" class="col-md-5">
 
-<h2>Your Information</h2>
+<h2>Central Functions – Your Information</h2>
 <hr/>
 <div class="row">
 <form action="" style="border:none;">
@@ -111,6 +111,7 @@ display:none;
 <td><div><b>Name</b></div><input type="text" name="username" onkeyUp="document.getElementById('Uname').innerHTML = this.value"  placeholder="First Name Last Name">
 </td>
 </div>
+<br/>
 <div class="col-md-6">
 <td>
 <div><b>Job Title</b></div><input id="jobtitle" type="text" name="jobtitle" onKeyup="addjobtitle()" placeholder="Position Title">
@@ -161,11 +162,11 @@ display:none;
 <a class="msg" href="" id="website1">
 </a>
 </p>
-<p style="margin-top: 14px; font-family: Verdana, Geneva, sans-serif; font-size: 10px; line-height: 16px; color: #333;">
+<p style="margin-top: 14px; font-family: Verdana, Geneva, sans-serif; font-size: 10px; line-height: 16px; color: #333; max-width: 940px;">
 This e-mail may contain confidential and/or privileged information. Any unauthorized copying, disclosure or distribution of the material in this e-mail is forbidden. If you are not the intended recipient (or have received this e-mail in error) please notify the sender immediately and delete this e-mail. Thank you!
-Movinga GmbH, Perleberger Straße 42, 10559 Berlin, Germany<br/>
-HANDELSREGISTER: Amtsgericht Berlin (Charlottenburg), HRB 167739<br/>
-GESCHÄFTSFÜHRUNG: Finn Age Hänsel
+<p style="margin-top: 14px; font-family: Verdana, Geneva, sans-serif; font-size: 10px; line-height: 16px; color: #333;">Movinga GmbH, Perleberger Straße 42, 10559 Berlin, Germany</p>
+<p style="margin-top: 4px; font-family: Verdana, Geneva, sans-serif; font-size: 10px; line-height: 16px; color: #333;">HANDELSREGISTER: Amtsgericht Berlin (Charlottenburg), HRB 167739</p>
+<p style="margin-top: 4px; font-family: Verdana, Geneva, sans-serif; font-size: 10px; line-height: 16px; color: #333;">GESCHÄFTSFÜHRUNG: Finn Age Hänsel</p>
 </p>
 </div>
 </div>
