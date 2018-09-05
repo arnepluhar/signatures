@@ -15,8 +15,9 @@ document.getElementById('emailid1').href="mailto:"+s;
 function addmobileno()
 {
 var mobileno = document.getElementById("mobileno");
-var s = " / "+mobileno.value;
+var s = mobileno.value;
 document.getElementById('mobileno1').innerHTML = s
+document.getElementById('mobileno1').href="tel:"+s;
 }
 function addwebsite()
 {
