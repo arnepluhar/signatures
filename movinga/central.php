@@ -145,13 +145,10 @@ display:none;
 <div id="image_preview1">
 <img id="previewing1" src="noimage.png" />
 </div>
-<span style="color: #333; margin-bottom: 0; font-family: Verdana, Geneva, sans-serif;">
- <p style="margin-bottom: 0;">
+<span style="color: #333; font-size: 10px; font-family: Verdana, Geneva, sans-serif;">
   <p style="font-size: 13px; color: #ff5722; line-height: 20px; font-weight: bold; margin-bottom: 0;" id="Uname"></p>
-  <p style="font-size: 12px; color: #666; line-height: 24px; font-weight: bold; text-transform: uppercase; margin-bottom: 0;" id="jobtitle1"></p>
- </p>
- <p class="signature" style="font-size: 10px; line-height: 22px; margin-bottom: 0;">
-  <p class="signature" style="margin-bottom: 0;">
+  <p style="font-size: 11px; color: #666; line-height: 24px; font-weight: bold; text-transform: uppercase;" id="jobtitle1"></p>
+  <p class="signature" style="line-height: 22px; margin-bottom: 0;">
    <a href="" id="emailid1" class="signature" style="color: #333; cursor: pointer; text-decoration: underline; margin-bottom: 0;"></a>
   </p>
   <p class="signature">
@@ -160,14 +157,13 @@ display:none;
   <p class="signature">
    <a href="http://www.movinga.de/" class="signature" style="color: #333; cursor: pointer; text-decoration: underline; margin-bottom: 0;">www.movinga.de</a>
   </p>
- </p> 
  <div class="signature" style="line-height: 20px;">
   <img class="signature" style="width: 100%; max-width: 100%; vertical-align: middle; display: inline-block; border: 0;" src="https://download.movinga.com/email-signature/line.png"><br/>
   <a href="https://www.movinga.com"><img class="signature" src="https://download.movinga.com/email-signature/movinga-36.png" width="120"></a><a href="https://www.pinterest.com/movingade"><img class="signature" style="margin-left: 6px;width: 24px;" src="https://download.movinga.com/email-signature/pinterest-36.png"></a><a href="https://www.facebook.com/movinga.de"><img class="signature" style="margin-left: 6px;width: 24px;"  src="https://download.movinga.com/email-signature/facebook-36.png"></a><a href="https://www.instagram.com/movinga/"><img style="margin-left: 6px;width: 24px;" src="https://download.movinga.com/email-signature/instagram-36.png"></a><a href="https://twitter.com/Movinga" class="w-inline-block"><img style="margin-left: 6px;width: 24px;" src="https://download.movinga.com/email-signature/twitter-36.png"></a><a href="https://www.linkedin.com/company/movinga-gmbh" class="w-inline-block"><img style="margin-left: 6px;width: 24px;" src="https://download.movinga.com/email-signature/linkedin-36.png"></a>
  </div>
- <p class="signature" style="margin-top: 14px; font-size: 10px; line-height: 16px; max-width: 940px;">This e-mail may contain confidential and/or privileged information. Any unauthorized copying, disclosure or distribution of the material in this e-mail is forbidden. If you are not the intended recipient (or have received this e-mail in error) please notify the sender immediately and delete this e-mail. Thank you!</p>
- <p class="signature" style="margin-top: 14px; font-size: 10px; line-height: 16px;">Movinga GmbH, Perleberger Straße 42, 10559 Berlin, Germany</p>
- <p class="signature" style="margin-top: 4px; font-size: 10px;">HANDELSREGISTER: Amtsgericht Berlin (Charlottenburg), HRB 167739</p>
+ <p class="signature" style="margin-top: 14px; margin-bottom: 0; font-size: 10px; line-height: 16px; max-width: 940px;">This e-mail may contain confidential and/or privileged information. Any unauthorized copying, disclosure or distribution of the material in this e-mail is forbidden. If you are not the intended recipient (or have received this e-mail in error) please notify the sender immediately and delete this e-mail. Thank you!</p>
+ <p class="signature" style="margin-top: 14px; margin-bottom: 0; font-size: 10px; line-height: 16px;">Movinga GmbH, Perleberger Straße 42, 10559 Berlin, Germany</p>
+ <p class="signature" style="margin-top: 4px; margin-bottom: 0; font-size: 10px;">HANDELSREGISTER: Amtsgericht Berlin (Charlottenburg), HRB 167739</p>
  <p class="signature" style="margin-top: 4px; font-size: 10px;">GESCHÄFTSFÜHRUNG: Finn Age Hänsel</p>
 </span>
 </div>
