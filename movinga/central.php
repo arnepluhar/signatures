@@ -98,8 +98,6 @@ display:none;
 <h1><b>Create Your Movinga-Email-Signature</b></h1>
 <div class="container">
 <div class="row">
-<div id="div1" align="center" class="col-md-5">
-
 <h2>Central Functions – Your Information</h2>
 <hr/>
 <div class="row">
@@ -138,24 +136,22 @@ display:none;
 </form>
 </div>
 <input type="button" id="copy1" class="" data-toggle="modal" data-target=".demo-popup1" value="Create Signature">
-</div>
-<div id="div2" class="col-md-7">
+
 <h2>Your Movinga-Signature</h2>
 <hr/>
-<div id="image_preview1">
-<img id="previewing1" src="noimage.png" />
-</div>
+
+<div id="div2" class="col-md-7">
 <span style="color: #333; font-size: 10px; font-family: Verdana, Geneva, sans-serif;">
   <p style="font-size: 13px; color: #ff5722; line-height: 20px; font-weight: bold; margin-bottom: 0;" id="Uname"></p>
   <p style="margin-bottom: 0; font-size: 11px; color: #666; line-height: 24px; font-weight: bold; text-transform: uppercase;" id="jobtitle1"></p>
-  <p class="signature" style="margin-bottom: 0;">
-   <a href="" id="emailid1" class="signature" style="margin-top: 4px; margin-bottom: 0; color: #333; cursor: pointer; text-decoration: underline;"></a>
+  <p class="signature" style="margin-top: 4px; margin-bottom: 0;">
+   <a href="" id="emailid1" class="signature" style="margin-bottom: 0; color: #333; cursor: pointer; text-decoration: none;"></a>
   </p>
-  <p class="signature" style="margin-bottom: 0;">
-   <a href="" id="mobileno1" class="signature" style="margin-top: 4px; margin-bottom: 0; color: #333; cursor: pointer; text-decoration: underline;"></a>
+  <p class="signature" style="margin-top: 4px; margin-bottom: 0;">
+   <a href="" id="mobileno1" class="signature" style="margin-bottom: 0; color: #333; cursor: pointer; text-decoration: none;"></a>
   </p>
-  <p class="signature" style="margin-bottom: 0;">
-   <a href="https://www.movinga.de/" class="signature" style="margin-top: 4px; margin-bottom: 0;color: #333; cursor: pointer; text-decoration: underline;">www.movinga.de</a>
+  <p class="signature" style="margin-top: 4px; margin-bottom: 0;">
+   <a href="https://www.movinga.de/" class="signature" style="margin-bottom: 0;color: #333; cursor: pointer; text-decoration: underline;">www.movinga.de</a>
   </p>
  <div class="signature" style="margin-top: 10px; line-height: 20px;">
   <img class="signature" style="margin-bottom:10px; width: 268px; max-width: 100%; vertical-align: middle; display: inline-block; border: 0;" src="https://download.movinga.com/email-signature/line.png">
