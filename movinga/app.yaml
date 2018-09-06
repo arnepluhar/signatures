@@ -1,6 +1,5 @@
 runtime: php72
 api_version: 1
-threadsafe: true
 handlers:
 - url: /central
   script: central.html
@@ -11,7 +10,7 @@ handlers:
 - url: /fr-cc
   script: fr-cc.html
 - url: /fr-sales
-  script: fr-cc.html
+  script: fr-sales.html
 - url: /se-cc
   script: se-cc.html
 - url: /se-ops
