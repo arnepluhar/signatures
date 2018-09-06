@@ -27,13 +27,11 @@ handlers:
   upload: www/se-sales.html
 - url: /signatures/js/script.js
   script: www/js/script.js
-  upload: www/js/script.js
 - url: /signatures/css/style.css
   static_files: www/css/style.css
   upload: www/css/style.css
 - url: /signatures/ajax_php_file.php
   script: www/signatures/ajax_php_file.php
-  upload: www/signatures/ajax_php_file.php
 - url: /signatures/(.*)
   static_files: www/index.html
   upload: www/index.html
