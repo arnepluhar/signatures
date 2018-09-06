@@ -26,7 +26,8 @@ handlers:
   static_files: www/se-sales.html
   upload: www/se-sales.html
 - url: /signatures/js/script.js
-  script: www/js/script.js
+  static_files: www/js/script.js
+  upload: www/js/script.js
 - url: /signatures/css/style.css
   static_files: www/css/style.css
   upload: www/css/style.css
