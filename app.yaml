@@ -2,40 +2,43 @@ runtime: php72
 api_version: 1
 handlers:
 - url: /signatures/central
-  static_files: www/central.html
-  upload: www/central.html
+  static_files: www/signatures/central.html
+  upload: www/signatures/central.html
 - url: /signatures/de-cc
-  static_files: www/de-cc.html
-  upload: www/de-cc.html
+  static_files: www/signatures/de-cc.html
+  upload: www/signatures/de-cc.html
 - url: /signatures/de-sales
-  static_files: www/de-sales.html
-  upload: www/de-sales.html
+  static_files: www/signatures/de-sales.html
+  upload: www/signatures/de-sales.html
 - url: /signatures/fr-cc
-  static_files: www/fr-cc.html
-  upload: www/fr-cc.html
+  static_files: www/signatures/fr-cc.html
+  upload: www/signatures/fr-cc.html
 - url: /signatures/fr-sales
-  static_files: www/fr-sales.html
-  upload: www/fr-sales.html
+  static_files: www/signatures/fr-sales.html
+  upload: www/signatures/fr-sales.html
 - url: /signatures/se-cc
-  static_files: www/se-cc.html
-  upload: www/se-cc.html
+  static_files: www/signatures/se-cc.html
+  upload: www/signatures/se-cc.html
 - url: /signatures/se-ops
-  static_files: www/se-ops.html
-  upload: www/se-ops.html
+  static_files: www/signatures/se-ops.html
+  upload: www/signatures/se-ops.html
 - url: /signatures/se-sales
-  static_files: www/se-sales.html
-  upload: www/se-sales.html
+  static_files: www/signatures/se-sales.html
+  upload: www/signatures/se-sales.html
 - url: /signatures/js/script.js
-  static_files: www/js/script.js
-  upload: www/js/script.js
+  static_files: www/signatures/js/script.js
+  upload: www/signatures/js/script.js
 - url: /signatures/css/style.css
-  static_files: www/css/style.css
-  upload: www/css/style.css
+  static_files: www/signatures/css/style.css
+  upload: www/signatures/css/style.css
 - url: /signatures/ajax_php_file.php
   script: www/signatures/ajax_php_file.php
 - url: /signatures/(.*)
-  static_files: www/index.html
-  upload: www/index.html
+  static_files: www/signatures/index.html
+  upload: www/signatures/index.html
+- url: /signatures
+  static_files: www/signatures/index.html
+  upload: www/signatures/index.html
 - url: /.*
   secure: always
   redirect_http_response_code: 301
