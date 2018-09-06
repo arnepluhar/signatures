@@ -7,10 +7,10 @@ font-size: 2em;
 }
 #main{
 margin: 25px 13%;
+max-width: 768px;
 font-family: 'Raleway', sans-serif;
 }
 h2{
-background-color: #FEFFED;
 text-align:center;
 border-radius: 10px 10px 0 0;
 margin: 0 -40px;
@@ -108,7 +108,7 @@ padding-left:6px;
 margin-bottom:5px;
 }
 input[type=button]#copy1{
-width:97%;
+width:500px;
 padding: 5px;
 margin-top: 0;
 margin-bottom: 27px;

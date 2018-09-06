@@ -1,0 +1,172 @@
+<html>
+
+<head>
+  <title>Movinga Email-Signature-Creator - Sales FR</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" type="text/javascript"></script>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript">
+    $("#copy").click(function() {
+      $("#div2").html($("#div1").html());
+    });
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("#copy1").click(function() {
+        var data = $("#div2").html();
+        $("#abc_data1").text(data);
+      });
+      $("#uploadimg").click(function() {
+        $('#message1').html('upload image');
+      });
+    });
+  </script>
+  <style>
+    .msg{
+margin-top: 0;
+}
+#image_preview1{
+margin-bottom:5px;
+}
+.uinfo{
+width:410px;
+}
+#image_preview1{
+display:none;
+}
+</style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <!-- popup box modal starts here for upload image -->
+      <div class="modal fade demo-popup" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel-1" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button> <h3 class="modal-title">upload your image</h3>
+            </div>
+            <div class="modal-body">
+              <P>
+                <div class="main">
+                  <h1 id="message1">upload image</h1><br/>
+                  <div id="message" align="center"></div>
+                  <form id="uploadimage" action="" method="post" enctype="multipart/form-data">
+                    <div id="selectImage">
+                      <div></div>
+                      <label>Select Your Image</label><br/>
+                      <input type="file" name="file" id="file"/>
+</div>
+                  </form>
+                </div>
+              </P>
+            </div>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+      <!-- /.modal-->
+      <!-- popup box modal ends -->
+      <!-- popup box modal starts here to show html code -->
+      <div class="modal fade demo-popup1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel-1" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button> <h3 class="modal-title">Copy HTML Signature</h3>
+            </div>
+            <div class="modal-body">
+              <P>
+                <div id="abc1">
+                  <pre id="abc_data1"></pre>
+                </div>
+              </P>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal-->
+      <!-- popup box modal ends -->
+    </div> <!-- /.row -->
+  </div> <!-- /.container -->
+  <div id="wholecont">
+    <div id="main">
+      <h1><b>Create Your Movinga-Email-Signature</b></h1>
+      <div class="container">
+        <div class="row">
+          <h2>Central Functions – Your Information</h2>
+          <hr />
+          <div class="row">
+            <form action="" style="border:none;">
+              <table class="uinfo">
+                <div class="row">
+                  <tr>
+                    <div class="col-md-6">
+                      <td>
+                        <div><b>Name</b></div><input type="text" name="username" onkeyUp="document.getElementById('Uname').innerHTML = this.value"  placeholder="First Name Last Name">
+</td>
+                    </div>
+                  </tr>
+                  <tr>
+                    <div class="col-md-6">
+                      <td>
+                        <div><b>Job Title</b></div><input id="jobtitle" type="text" name="jobtitle" onKeyup="addjobtitle()" placeholder="Position Title">
+</td>
+                    </div>
+                  </tr>
+                  <tr>
+                    <div class="col-md-6">
+                      <td>
+                        <div><b>Email</b></div><input id="emailid" type="text" name="emailid" onKeyup="addemailid()" placeholder="firstname.lastname@movinga.com"></td>
+                    </div>
+                  </tr>
+              </table>
+            </form>
+            <input type="button" id="copy1" class="" data-toggle="modal" data-target=".demo-popup1" value="Show HTML-Signature">
+</div>
+            <div class="row">
+              <h2>Your Movinga-Signature</h2>
+            </div>
+            <div id="div2" class="col-md-7">
+              <div class="signature" style="font-family:Verdana,Geneva,sans-serif;color:rgb(51,51,51);font-size:10px">
+  <p style="margin-top:14px;margin-bottom:0px;font-size:13px;color:rgb(255,87,34);line-height:20px;font-weight:bold" id="Uname"></p>
+  <p style="margin-top:0px;margin-bottom:0px;font-size:11px;color:rgb(102,102,102);line-height:24px;font-weight:bold;text-transform:uppercase" id="jobtitle1"></p>
+  <p class="signature" style="margin-top:4px;margin-bottom:0px;color:rgb(51,51,51)">
+   <a href="" id="emailid1" class="signature" style="color:rgb(51,51,51);background-color:transparent;text-decoration:none;text-decoration-line:none;text-decoration-style:initial;text-decoration-color:initial;"></a>
+  </p>
+  <p class="signature" style="margin-top:4px;margin-bottom:0px;color:rgb(51,51,51)">
+   <a href="tel:+33756798848" id="mobile" class="signature" style="color:rgb(51,51,51);background-color:transparent;text-decoration:none;text-decoration-line:none;text-decoration-style:initial;text-decoration-color:initial;">07 56 79 88 48</a>
+  </p>
+  <p class="signature" style="margin-top:4px;margin-bottom:0px;color:rgb(51,51,51)">
+   <a href="tel:+331 6760764" id="landline" class="signature" style="color:rgb(51,51,51);background-color:transparent;text-decoration:none;text-decoration-line:none;text-decoration-style:initial;text-decoration-color:initial;">01 86 76 07 64</a>
+  </p>
+  <p class="signature" style="margin-top:4px;margin-bottom:0px;color:rgb(51,51,51)">
+   <a href="https://www.movinga.fr/" class="signature" style="color:rgb(51,51,51);background-color:transparent;text-decoration:none;text-decoration-line:none;text-decoration-style:initial;text-decoration-color:initial;">www.movinga.fr</a>
+  </p>
+ <div class="signature" style="color:rgb(51,51,51);font-size:10px;margin-top:10px;line-height:20px">
+  <img class="signature" style="vertical-align:middle;border:0px;margin-bottom:10px;width:268px;max-width:100%;display:inline-block" src="https://download.movinga.com/email-signature/line.png"><br/>
+  <a style="color:rgb(0,123,255);background-color:transparent" href="https://www.movinga.fr" class="signature"><img class="signature" src="https://download.movinga.com/email-signature/movinga-36.png" style="vertical-align:middle;border-style:none;width:120px"></a>
+  <a style="color:rgb(0,123,255);background-color:transparent" href="https://www.pinterest.com/movingafr" class="signature"><img class="signature" src="https://download.movinga.com/email-signature/pinterest-36.png" style="vertical-align:middle;border-style:none;margin-left:6px;width:24px"></a>
+  <a style="color:rgb(0,123,255);background-color:transparent" href="https://www.facebook.com/movinga.fr" class="signature"><img class="signature" src="https://download.movinga.com/email-signature/facebook-36.png" style="vertical-align:middle;border-style:none;margin-left:6px;width:24px"></a>
+    <a style="color:rgb(0,123,255);background-color:transparent" href="https://www.instagram.com/movinga.fr/" class="signature"><img src="https://download.movinga.com/email-signature/instagram-36.png" style="vertical-align:middle;border-style:none;margin-left:6px;width:24px"></a>
+    <a style="color:rgb(0,123,255);background-color:transparent" href="https://twitter.com/MovingaFR" class="signature"><img src="https://download.movinga.com/email-signature/twitter-36.png" style="vertical-align:middle;border-style:none;margin-left:6px;width:24px"></a>
+    <a style="color:rgb(0,123,255);background-color:transparent" href="https://www.linkedin.com/company/movinga-gmbh" class="signature"><img src="https://download.movinga.com/email-signature/linkedin-36.png" style="vertical-align:middle;border-style:none;margin-left:6px;width:24px"></a>
+ </div>
+ <p class="signature" style="margin-top:14px;margin-bottom:0px;line-height:16px;max-width:940px">Cet e-mail peut contenir des informations confidentielles et/ou privilégiées. Toute copie, divulgation ou distribution non autorisée du matériel contenu dans ce mail est interdite. Si vous n'êtes pas le destinataire ciblé ou désigné (ou si vous avez reçu ce mail par erreur), veuillez en informer immédiatement l'expéditeur et supprimer cet e-mail. Merci!</p>
+ <p class="signature" style="margin-top:14px;margin-bottom:0px;line-height:16px">Movinga GmbH, Perleberger Straße 42, 10559 Berlin, Germany</p>
+ <p class="signature" style="margin-top:4px;margin-bottom:0px;">HANDELSREGISTER: Amtsgericht Berlin (Charlottenburg), HRB 167739</p>
+ <p class="signature" style="margin-top:4px;margin-bottom:1rem;">GESCHÄFTSFÜHRUNG: Finn Age Hänsel</p>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>

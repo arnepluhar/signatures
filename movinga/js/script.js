@@ -16,8 +16,9 @@ function addmobileno()
 {
 var mobileno = document.getElementById("mobileno");
 var s = mobileno.value;
-document.getElementById('mobileno1').innerHTML = s
-document.getElementById('mobileno1').href="tel:"+s;
+var t = mobileno.value.replace(/\s/g,'');
+document.getElementById('mobileno1').innerHTML = s;
+document.getElementById('mobileno1').href="tel:"+t;
 }
 function addwebsite()
 {
@@ -30,7 +31,7 @@ function addoffice()
 {
 var office = document.getElementById("office");
 var s =office.value;
-document.getElementById('office1').innerHTML = s
+document.getElementById('office1').innerHTML = s;
 }
 function addfax()
 {
@@ -38,7 +39,7 @@ var fax = document.getElementById("fax");
 if(fax.value)
 {
 var s = " / "+fax.value;
-document.getElementById('fax1').innerHTML = s
+document.getElementById('fax1').innerHTML = s;
 }
 }
 function addfacebook()

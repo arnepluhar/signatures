@@ -1,9 +1,23 @@
-runtime: php72
+runtime: html72
 api_version: 1
 threadsafe: true
 handlers:
 - url: /central
-  script: central.php
+  script: central.html
+- url: /de-cc
+  script: de-cc.html
+- url: /de-sales
+  script: de-sales.html
+- url: /fr-cc
+  script: fr-cc.html
+- url: /fr-sales
+  script: fr-cc.html
+- url: /se-cc
+  script: se-cc.html
+- url: /se-ops
+  script: se-ops.html
+- url: /se-sales
+  script: se-sales.html
 - url: /js/script.js
   script: /js/script.js
 - url: /css/style.css
