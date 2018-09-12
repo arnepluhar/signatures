@@ -4,6 +4,9 @@ handlers:
 - url: /signatures/central
   static_files: www/signatures/central.html
   upload: www/signatures/central.html
+- url: /signatures/fr-central
+  static_files: www/signatures/fr-central.html
+  upload: www/signatures/fr-central.html
 - url: /signatures/de-cc
   static_files: www/signatures/de-cc.html
   upload: www/signatures/de-cc.html
