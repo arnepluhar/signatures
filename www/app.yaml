@@ -44,11 +44,11 @@ handlers:
   upload: signatures/index.html
 
 # Serve images as static resources.
-- url: /(.+\.(gif|png|jpg|js|json|mo|po))$
+- url: /(.+\.(css|gif|png|jpg|js|json|mo|po))$
   static_files: \1
-  upload: .+\.(gif|png|jpg|js|json|mo|po)$
+  upload: .+\.(css|gif|png|jpg|js|json|mo|po)$
 # Serve php scripts.
-- url: /(.+\.php)$
+- url: /glpi/(.+\.php)$
   script: \1
 
 - url: /(.*)
