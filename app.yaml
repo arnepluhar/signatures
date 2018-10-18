@@ -42,6 +42,16 @@ handlers:
 - url: /signatures
   static_files: www/signatures/index.html
   upload: www/signatures/index.html
+
+# Serve images as static resources.
+- url: /(.+\.(gif|png|jpg|js|json|po))$
+  static_files: \1
+  upload: .+\.(gif|png|jpg|js|json|po)$
+  application_readable: true
+# Serve php scripts.
+- url: /(.+\.php)$
+  script: \1
+
 - url: /.*
   secure: always
   redirect_http_response_code: 301
