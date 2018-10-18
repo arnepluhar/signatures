@@ -46,10 +46,11 @@ handlers:
 # Serve images as static resources.
 - url: /(.+\.(gif|png|jpg|js|json|mo|po))$
   static_files: \1
-  upload: .+\.(gif|png|jpg|js|json|mo|po)$
+  upload: www/.+\.(gif|png|jpg|js|json|mo|po)$
 # Serve php scripts.
 - url: /(.+\.php)$
   script: \1
+  upload: www/.+\.(php)$
 
 - url: /.*
   secure: always
